@@ -31,7 +31,7 @@ export default class SceneInit {
       this.fov,
       window.innerWidth / window.innerHeight,
       1,
-      1000
+      10000
     );
     this.camera.position.z = 500;
     this.camera.position.x = 200;
@@ -52,7 +52,7 @@ export default class SceneInit {
     this.stats = Stats();
     document.body.appendChild(this.stats.dom);
 
-    this.scene.background = new THREE.Color(0xFF0066)
+    
 
     // ambient light which is for the whole scene
     // this.ambientLight = new THREE.AmbientLight(0xFFFFFFF, 50);
